@@ -21,7 +21,7 @@ class RobotTest {
     // test de la fonctions toString a une classe
     @Test
     void  toStringTest(){
-        Assertions.assertEquals("Robot@38bc8ab5" , robot.toString());
+        Assertions.assertEquals("Robot@18bf3d14" , robot.toString());
     }
 
     @Test
