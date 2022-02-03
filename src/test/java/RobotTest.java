@@ -18,7 +18,7 @@ class RobotTest {
         System.setOut(new PrintStream((affiche)));
     }
 
-    // test de la fonctions toString a une classe
+    // test de la fonctions toString a une classe ok
     @Test
     void  toStringTest(){
         Assertions.assertEquals("Robot@3754a4bf" , robot.toString());
@@ -30,13 +30,6 @@ class RobotTest {
         Assertions.assertEquals("Robot femme a ete touche par le robot homme\n", affiche.toString().replace("\r\n" , "\n"));
     }
 
-    @Test
-    void isDead() {
-    }
-
-    @Test
-    void estMort() {
-    }
 
     @Test
     void getNomRobot() {
